@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Reset User ID - Rupee Bank</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="rupee.jpg" alt="Rupee Bank Logo"> <span>Rupee Bank</span>
+        </div>
+        <nav>
+            <a href="help-support.html">Help/Support</a>
+            <a href="contact.html">Contact Us</a>
+            <a href="index.html">Login</a>
+        </nav>
+    </header>
+
+    <div class="content-container">
+        <h1>Reset User ID</h1>
+        <form class="reset-userid-form">
+            <div class="input-group">
+                <label for="email">Registered Email Address</label>
+                <input type="email" id="email" required>
+            </div>
+            <div class="input-group">
+                <label for="securityQuestion">Security Question</label>
+                <select id="securityQuestion" required>
+                    <option value="petName">What is your pet's name?</option>
+                    <option value="motherMaiden">What is your mother's maiden name?</option>
+                    <option value="favoriteFood">What is your favorite food?</option>
+                </select>
+            </div>
+            <div class="input-group">
+                <label for="securityAnswer">Answer</label>
+                <input type="text" id="securityAnswer" required>
+            </div>
+            <button type="submit">Reset User ID</button>
+        </form>
+    </div>
+
+    <footer>
+    <p>&copy; 2024 Rupee Bank. All Rights Reserved.</p>
+    <div class="footer-links">
+        <a href="terms.html">Terms and Conditions</a> | 
+        <a href="privacy_policy.html">Privacy Policy</a> 
+        
+    </div>
+    <p class="secure-info"><i class="fas fa-lock"></i><span> SSL Secured Connection</span></p>
+</footer>
+</body>
+</html>
