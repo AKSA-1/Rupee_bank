@@ -55,7 +55,7 @@ Feel free to fork the repository, make changes, and submit pull requests. If you
 This project is licensed under the Opensource License.
 
 ### Acknowledgments
-FontAwesome for icons.
+Font Awesome for icons.
 Google Fonts for typography.
 markdown
 Copy code
